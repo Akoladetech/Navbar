@@ -1,0 +1,70 @@
+/************************  GENERAL RESET ************************/
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0; 
+  box-sizing: inherit;
+} 
+
+html,
+body {
+  height: 100%;
+}
+
+/********* Container ***********/
+.container {
+    width: calc(100% - 40px);
+    max-width: 2000px;
+    margin: 0px auto;
+}
+
+
+
+/********** Navbar **********/
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(131, 131, 133);
+}
+  
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo {
+    width: 400px;
+}
+  
+.nav-list {
+    list-style: none;
+}
+  
+.list-item {
+    display: inline-block;
+    margin: 0px 10px;
+}
+  
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(10, 10, 39);
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease; 
+}
+  
+.nav-link:hover {
+    color: rgba(26, 56, 26, 0.39);
+}
+  
