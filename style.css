@@ -21,11 +21,9 @@ body {
 
 /********* Container ***********/
 .container {
-    width: 80%;
-    background-color: rgb(10, 10, 39);
-    margin: 5px;
-    padding: 10px 0px;
-    
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
